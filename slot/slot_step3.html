@@ -8,15 +8,30 @@ Copyright 2016 Delta System Solutions Co.Ltd. All rights reserved.
  Customize Settings
 -----------------------*/
 // スロット画像配列
-// STEPUP       27
-// ＋100万      27
-// ＋300万      9
-// オーグメント 27
+// STEPUP       29
+// ＋100万      33
+// ＋300万      10
+// WSTEPUP      2
+// ゲリラ       1
+// オーグメント 23 * 2
+// STEPDOWN	2
+
 var slotImg = [
-  'STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png'
-  ,'＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png'
-  ,'＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png'
-  ,'★★★☆☆\/綺麗な花には棘がある.png','★★★☆☆\/アイドルウマ娘.png','★★★☆☆\/ウマが葱を背負って来る.png','★★★☆☆\/ウマにつままれる.png','★★★☆☆\/ウマの子を散らす.png','★★★☆☆\/ウマもおだてりゃ木に登る.png','★★★☆☆\/ウマよ花よ.png','★★★☆☆\/ウマを読む.png','★★★☆☆\/ウマ真似.png','★★★☆☆\/エクリプス.png','★★★☆☆\/おかわり.png','★★★☆☆\/おなじみ３着.png','★★★☆☆\/チキンorビーフorポーク.png','★★★☆☆\/ノーカン.png','★★★☆☆\/画ウマ点睛を欠く.png','★★★☆☆\/快進撃.png','★★★☆☆\/基本忘れるべからず.png','★★★☆☆\/気性難.png','★★★☆☆\/泣き面にウマ.png','★★★☆☆\/強欲なウマ.png','★★★☆☆\/穴のウマを値段する.png','★★★☆☆\/元祖ガチャ杯.png','★★★☆☆\/出張中.png','★★★☆☆\/前門のウマ後門もウマ.png','★★★☆☆\/喪家のウマ.png','★★★☆☆\/天邪鬼.png','★★★☆☆\/盗っ人ウマ娘.png','★★★☆☆\/逃げの神髄.png','★★★☆☆\/能あるウマは蹄を隠す.png','★★★☆☆\/抜け駆け禁止.png','★★★☆☆\/疲れ知らず.png','★★★☆☆\/飛ぶウマ落とす.png','★★★☆☆\/保険.png','★★★☆☆\/捕らぬウマの皮算用.png','★★★☆☆\/無課金トレーナー.png','★★★☆☆\/無限推し.png'
+  'STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png',
+  'STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png',
+  'STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png',
+  '＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png',
+  '＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png',
+  '＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png',
+  'WSTEPUP.png','WSTEPUP.png',
+  'STEPDOWN.png','STEPDOWN.png',
+  '★★★☆☆\/疫病神.png',
+  '★★★☆☆\/ウマにつままれる.png','★★★☆☆\/ウマの章.png','★★★☆☆\/ウマの子散らす.png','★★★☆☆\/ウマよ花よ.png','★★★☆☆\/ウマを読む.png','★★★☆☆\/ウマ真似.png','★★★☆☆\/エクリプス.png','★★★☆☆\/おかわり.png','★★★☆☆\/おなじみ3着.png','★★★☆☆\/さぼり癖.png',
+  '★★★☆☆\/チキン、ビーフ、ポーク.png','★★★☆☆\/ノーカン.png','★★★☆☆\/ミサイル.png','★★★☆☆\/ルール改変.png','★★★☆☆\/画竜点睛を欠く.png','★★★☆☆\/快進撃.png','★★★☆☆\/基本忘れるべからず.png','★★★☆☆\/勅命.png','★★★☆☆\/気性難.png',
+  '★★★☆☆\/強欲なウマ.png','★★★☆☆\/自己観察眼.png','★★★☆☆\/絶校長.png','★★★☆☆\/前門のウマ、後門もウマ.png','★★★☆☆\/保険.png',
+  '★★★☆☆\/ウマにつままれる.png','★★★☆☆\/ウマの章.png','★★★☆☆\/ウマの子散らす.png','★★★☆☆\/ウマよ花よ.png','★★★☆☆\/ウマを読む.png','★★★☆☆\/ウマ真似.png','★★★☆☆\/エクリプス.png','★★★☆☆\/おかわり.png','★★★☆☆\/おなじみ3着.png','★★★☆☆\/さぼり癖.png',
+  '★★★☆☆\/チキン、ビーフ、ポーク.png','★★★☆☆\/ノーカン.png','★★★☆☆\/ミサイル.png','★★★☆☆\/ルール改変.png','★★★☆☆\/画竜点睛を欠く.png','★★★☆☆\/快進撃.png','★★★☆☆\/基本忘れるべからず.png','★★★☆☆\/勅命.png','★★★☆☆\/気性難.png',
+  '★★★☆☆\/強欲なウマ.png','★★★☆☆\/自己観察眼.png','★★★☆☆\/絶校長.png','★★★☆☆\/前門のウマ、後門もウマ.png','★★★☆☆\/保険.png'
 ];
 // 縦に並べるスロット画像の数
 var slotNum = 50;
@@ -31,7 +46,7 @@ var slotEasing = ['swing','easeOutQuart','easeOutBounce'];
 // 回転秒数
 var slotDuration = 5;
 // 当たり目確率（1=100%、0.5=50%）
-var kakuritu = 1;
+var kakuritu = 1.0;
 
 /*---------------------
  Definitions
@@ -136,6 +151,11 @@ function slotCreate(obj, slotno){
 /* スロットスタート */
 function slotStart(){
   
+  const bgm1 = document.querySelector("#bgm1");
+  bgm1.volume = 0.1;
+  if(bgm1.paused ){
+    bgm1.play();
+  }
   // スタートボタンの無効化
   $("#startBtn").prop('disabled', true);
   
@@ -331,3 +351,7 @@ function slotMove(obj, slotno){
 <input id="startBtn" type="button" value="START" onclick="javascript:slotStart();" />
 
 </div>
+
+<audio id="bgm1" controls preload loop>
+  <source src="bgm\/step1-5.mp3" type="audio/mp3">
+</audio>

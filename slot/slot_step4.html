@@ -8,15 +8,27 @@ Copyright 2016 Delta System Solutions Co.Ltd. All rights reserved.
  Customize Settings
 -----------------------*/
 // スロット画像配列
-// STEPUP       16
-// ＋100万      32
-// ＋300万      8
-// オーグメント 24
+// STEPUP       20
+// ＋100万      38
+// ＋300万      10
+// ゲリラ       1
+// オーグメント 28 * 2
+// STEPDOWN	3
+
 var slotImg = [
-  'STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png'
-  ,'＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png'
-  ,'＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png'
-  ,'★★★★☆\/G鯖の浜口.png','★★★★☆\/ＨＥＮＴＡＩ.png','★★★★☆\/TATEYAMA.png','★★★★☆\/アクアリウム吉田.png','★★★★☆\/うどんはオカズや.png','★★★★☆\/ウマは飢えても穂を摘まず.png','★★★★☆\/ウマ蘇生.png','★★★★☆\/おっぱい大魔神.png','★★★★☆\/ケツデカウマ娘.png','★★★★☆\/その壺買います！.png','★★★★☆\/ドッペルゲンガー.png','★★★★☆\/ハイリスクハイリターン.png','★★★★☆\/もっとおかわり.png','★★★★☆\/ルール改変.png','★★★★☆\/レース改変.png','★★★★☆\/一流か、三流か.png','★★★★☆\/奥さんもいかが？.png','★★★★☆\/加速禁止令.png','★★★★☆\/鬼が出るかウマが出るか.png','★★★★☆\/窮ウマ猫を嚙む.png','★★★★☆\/玉座の間.png','★★★★☆\/月とウマ.png','★★★★☆\/己の肉体のみ.png','★★★★☆\/時代遅れ.png','★★★★☆\/疾風怒濤.png','★★★★☆\/笑う門には福来たる.png','★★★★☆\/新宿区北新宿3-40-10.png','★★★★☆\/衰え知らず.png','★★★★☆\/菅元総理.png','★★★★☆\/泥棒.png','★★★★☆\/二頭三脚.png','★★★★☆\/破壊神系お嬢様.png','★★★★☆\/評価の達人.png','★★★★☆\/浮気.png','★★★★☆\/副業なの.png'
+  'STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png',
+  '＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png',
+  '＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png',
+  '＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png',
+  '＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png',
+  'STEPDOWN.png','STEPDOWN.png','STEPDOWN.png',
+  '★★★★☆\/天邪鬼.png',
+  '★★★★☆\/2代目ガチャ杯.png','★★★★☆\/Ｇ鯖の浜口.png','★★★★☆\/ＴＡＴＥＹＡＭＡ.png','★★★★☆\/アクアリウム吉田.png','★★★★☆\/ウマの休憩.png','★★★★☆\/ウマ蘇生.png','★★★★☆\/おクスリやめたね.png','★★★★☆\/おっぱい大魔神.png','★★★★☆\/ケツデカウマ娘.png','★★★★☆\/ご指名入りました（確率上昇分）.png',
+  '★★★★☆\/ご指名入りました.png','★★★★☆\/ザ・ソロ.png','★★★★☆\/もっと！おかわり！.png','★★★★☆\/ルール改変.png','★★★★☆\/レース改変.png','★★★★☆\/ローリスクハイリターン.png','★★★★☆\/一番槍.png','★★★★☆\/鋭利な末脚.png','★★★★☆\/窮鼠ウマを噛む.png','★★★★☆\/最果てより.png',
+  '★★★★☆\/疾風怒濤.png','★★★★☆\/衰え知らず.png','★★★★☆\/菅元総理.png','★★★★☆\/先駆け.png','★★★★☆\/投資.png','★★★★☆\/二頭三脚.png','★★★★☆\/抜け駆け禁止.png','★★★★☆\/副業なの.png',
+  '★★★★☆\/2代目ガチャ杯.png','★★★★☆\/Ｇ鯖の浜口.png','★★★★☆\/ＴＡＴＥＹＡＭＡ.png','★★★★☆\/アクアリウム吉田.png','★★★★☆\/ウマの休憩.png','★★★★☆\/ウマ蘇生.png','★★★★☆\/おクスリやめたね.png','★★★★☆\/おっぱい大魔神.png','★★★★☆\/ケツデカウマ娘.png','★★★★☆\/ご指名入りました（確率上昇分）.png',
+  '★★★★☆\/ご指名入りました.png','★★★★☆\/ザ・ソロ.png','★★★★☆\/もっと！おかわり！.png','★★★★☆\/ルール改変.png','★★★★☆\/レース改変.png','★★★★☆\/ローリスクハイリターン.png','★★★★☆\/一番槍.png','★★★★☆\/鋭利な末脚.png','★★★★☆\/窮鼠ウマを噛む.png','★★★★☆\/最果てより.png',
+  '★★★★☆\/疾風怒濤.png','★★★★☆\/衰え知らず.png','★★★★☆\/菅元総理.png','★★★★☆\/先駆け.png','★★★★☆\/投資.png','★★★★☆\/二頭三脚.png','★★★★☆\/抜け駆け禁止.png','★★★★☆\/副業なの.png'
 ];
 // 縦に並べるスロット画像の数
 var slotNum = 50;
@@ -31,7 +43,7 @@ var slotEasing = ['swing','easeOutQuart','easeOutBounce'];
 // 回転秒数
 var slotDuration = 5;
 // 当たり目確率（1=100%、0.5=50%）
-var kakuritu = 1;
+var kakuritu = 1.0;
 
 /*---------------------
  Definitions
@@ -136,6 +148,11 @@ function slotCreate(obj, slotno){
 /* スロットスタート */
 function slotStart(){
   
+  const bgm1 = document.querySelector("#bgm1");
+  bgm1.volume = 0.1;
+  if(bgm1.paused ){
+    bgm1.play();
+  }
   // スタートボタンの無効化
   $("#startBtn").prop('disabled', true);
   
@@ -331,3 +348,7 @@ function slotMove(obj, slotno){
 <input id="startBtn" type="button" value="START" onclick="javascript:slotStart();" />
 
 </div>
+
+<audio id="bgm1" controls preload loop>
+  <source src="bgm\/step1-5.mp3" type="audio/mp3">
+</audio>

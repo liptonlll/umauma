@@ -8,15 +8,26 @@ Copyright 2016 Delta System Solutions Co.Ltd. All rights reserved.
  Customize Settings
 -----------------------*/
 // スロット画像配列
-// STEPUP       0
-// ＋100万      19
-// ＋300万      7
-// オーグメント 11
+// STEPUP       30
+// ＋100万      68
+// ＋300万      30
+// STEPDOWN     6
+// ゲリラ       2
+// オーグメント 16 * 3
+
 var slotImg = [
-//  'STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png'
-  '＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png'
-  ,'＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png'
-  ,'★★★★★\/ウマに金棒.png','★★★★★\/ウマの巻.png','★★★★★\/ウマの知らせ.png','★★★★★\/ウマ穴に入らずんばウマ子を得ず.png','★★★★★\/ウルトララッキーセブン.png','★★★★★\/オトモ任せ.png','★★★★★\/ジャックポット.png','★★★★★\/スーパージャックポット.png','★★★★★\/一人でいい.png','★★★★★\/今、幸せですか？.png','★★★★★\/大泥棒.png','★★★★★\/棚からニンジン.png','★★★★★\/伝承ウマ娘.png','★★★★★\/墓荒らし.png','★★★★★\/本業なの.png','★★★★★\/立つウマ跡を濁さず.png'
+  'STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png',
+  'STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png','STEPUP.png',
+  '＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png',
+  '＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png',
+  '＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png',
+  '＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png','＋100万.png',
+  '＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png',
+  '＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png','＋300万.png',
+  'STEPDOWN.png','STEPDOWN.png','STEPDOWN.png','STEPDOWN.png','STEPDOWN.png','STEPDOWN.png',
+  '★★★★★\/九死一生.png','★★★★★\/九死一生.png',
+  '★★★★★\/立つウマ跡を濁さず.png','★★★★★\/ウマの巻.png','★★★★★\/ウマの知らせ.png','★★★★★\/ウマ娘の尻尾.png','★★★★★\/ウルトララッキーセブン.png','★★★★★\/オトモ任せ.png','★★★★★\/器用貧乏.png','★★★★★\/窮鼠ウマを噛む・改.png','★★★★★\/今、幸せですか？.png','★★★★★\/砂の王、翠に至る.png','★★★★★\/世界の.png','★★★★★\/第一世代.png','★★★★★\/泥棒.png','★★★★★\/伝承ウマ娘.png','★★★★★\/二面性.png','★★★★★\/本業なの.png',
+  '★★★★★\/立つウマ跡を濁さず.png','★★★★★\/ウマの巻.png','★★★★★\/ウマの知らせ.png','★★★★★\/ウマ娘の尻尾.png','★★★★★\/ウルトララッキーセブン.png','★★★★★\/オトモ任せ.png','★★★★★\/器用貧乏.png','★★★★★\/窮鼠ウマを噛む・改.png','★★★★★\/今、幸せですか？.png','★★★★★\/砂の王、翠に至る.png','★★★★★\/世界の.png','★★★★★\/第一世代.png','★★★★★\/泥棒.png','★★★★★\/伝承ウマ娘.png','★★★★★\/二面性.png','★★★★★\/本業なの.png'
 ];
 // 縦に並べるスロット画像の数
 var slotNum = 50;
@@ -31,7 +42,7 @@ var slotEasing = ['swing','easeOutQuart','easeOutBounce'];
 // 回転秒数
 var slotDuration = 5;
 // 当たり目確率（1=100%、0.5=50%）
-var kakuritu = 0.8;
+var kakuritu = 1.0;
 
 /*---------------------
  Definitions
@@ -136,6 +147,11 @@ function slotCreate(obj, slotno){
 /* スロットスタート */
 function slotStart(){
   
+  const bgm1 = document.querySelector("#bgm1");
+  bgm1.volume = 0.1;
+  if(bgm1.paused ){
+    bgm1.play();
+  }
   // スタートボタンの無効化
   $("#startBtn").prop('disabled', true);
   
@@ -331,3 +347,7 @@ function slotMove(obj, slotno){
 <input id="startBtn" type="button" value="START" onclick="javascript:slotStart();" />
 
 </div>
+
+<audio id="bgm1" controls preload loop>
+  <source src="bgm\/step1-5.mp3" type="audio/mp3">
+</audio>
